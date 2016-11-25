@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{50CF6796-E207-F7D4-63E4-3342E86E88C2}</ProjectGuid>
+    <ProjectGuid>{6921F917-C7F4-EB67-C8CD-66FA266EE81D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -93,9 +93,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="projettestoculus.CSharp.csproj">
-      <Project>{C8F6A495-53C1-1426-B106-F7769AEF56D6}</Project>
-      <Name>projettestoculus.CSharp</Name>
+    <ProjectReference Include="ValleyResistance.CSharp.csproj">
+      <Project>{CB11D0C8-4B7A-344D-78FE-B85A29734B51}</Project>
+      <Name>ValleyResistance.CSharp</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
