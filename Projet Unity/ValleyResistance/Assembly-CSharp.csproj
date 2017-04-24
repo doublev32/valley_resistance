@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{A5D5C8C5-DD00-BAC2-F6F0-1D6EC1D0B9D8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -38,65 +39,67 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+      <HintPath>E:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>E:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Script\Ennemy\EnnemyMovement.cs" />
-     <Compile Include="Assets\Script\Manager\EnnemyManager.cs" />
-     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
-     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
-     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
-     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
-     <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
-     <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
-     <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Status.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_StatusText.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
-     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
-     <None Include="Assets\SteamVR\readme.txt" />
-     <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
- <Reference Include="UnityEngine.UI">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Script\Ennemy\EnemyAttack.cs" />
+    <Compile Include="Assets\Script\Ennemy\EnnemyMovement.cs" />
+    <Compile Include="Assets\Script\Manager\PlayerHealths.cs" />
+    <Compile Include="Assets\Script\Manager\EnnemyManager.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestThrow.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TestTrackedCamera.cs" />
+    <Compile Include="Assets\SteamVR\Extras\SteamVR_TrackedController.cs" />
+    <Compile Include="Assets\SteamVR\Plugins\openvr_api.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Camera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraFlip.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_CameraMask.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Controller.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ControllerManager.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Ears.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_ExternalCamera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Fade.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Frustum.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_GameView.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_IK.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_LoadLevel.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Menu.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Overlay.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_PlayArea.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Render.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_RenderModel.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Skybox.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_SphericalProjection.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Stats.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Status.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_StatusText.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TestController.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedCamera.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
+    <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+    <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>E:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -106,5 +109,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>
